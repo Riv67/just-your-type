@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #4084bb
 }
 
 *, *::before, *::after {
@@ -17,5 +18,25 @@ html {
 }
 
 body {
+  margin: 5rem;
+}
+
+.big-text {
+  font-family: 'Abril Fatface', cursive;
+  padding-bottom: 0;
+}
+
+.mini-text {
+  font-family: 'Archivo Black', sans-serif;
+  max-width: 11.5rem;
+  margin-right: 0rem;
+  margin-left: auto;
+}
+
+p {
   margin: 0;
+}
+
+span {
+  color: #fff;
 }
