@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: #4084bb
+  background-color: #edbdcd
 }
 
 *, *::before, *::after {
@@ -24,19 +24,35 @@ body {
 .big-text {
   font-family: 'Abril Fatface', cursive;
   padding-bottom: 0;
+  color: #e85a1d;
 }
 
 .mini-text {
   font-family: 'Archivo Black', sans-serif;
-  max-width: 11.5rem;
+  max-width: 8.5rem;
   margin-right: 0rem;
   margin-left: auto;
-}
-
-p {
-  margin: 0;
+  color: #fff;
 }
 
 span {
-  color: #fff;
+  animation: fadein 6s;
+}
+
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+.yotta {
+  font-size: 7.4784rem;
+  line-height: 7.5rem !important;
+}
+
+.height {
+  line-height: 6rem !important;
 }
