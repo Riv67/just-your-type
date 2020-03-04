@@ -21,7 +21,8 @@ body {
   margin: 5rem;
 }
 
-.big-text {
+.big-text
+ {
   font-family: 'Abril Fatface', cursive;
   padding-bottom: 0;
   color: #e85a1d;
@@ -51,8 +52,4 @@ span {
 .yotta {
   font-size: 7.4784rem;
   line-height: 7.5rem !important;
-}
-
-.height {
-  line-height: 6rem !important;
 }
