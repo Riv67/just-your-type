@@ -2,16 +2,11 @@ html {
   background-color: #edbdcd
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
   margin: 2rem;
 }
 
-.big-text
- {
+.big-text {
   font-family: 'Abril Fatface', cursive;
   padding-bottom: 0;
   color: #e85a1d;
