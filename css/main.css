@@ -1,5 +1,5 @@
 html {
-  background-color: #edbdcd
+  background-color: #edbdcd;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .big-text {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   padding-bottom: 0;
   color: #e85a1d;
   font-size: 4.5rem;
@@ -16,9 +16,8 @@ body {
 }
 
 .mini-text {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   max-width: 10rem;
-  margin-right: 0rem;
   margin-left: auto;
   color: #fff;
   letter-spacing: .05rem;
@@ -30,11 +29,12 @@ span {
 
 @keyframes fadein {
   from {
-    opacity:0;
+    opacity: 0;
   }
   to {
-    opacity:1;
+    opacity: 1;
   }
+
 }
 
 .yotta {
@@ -79,8 +79,7 @@ span {
     margin: 5rem;
   }
 
-  .big-text
-   {
+  .big-text {
     font-size: 6rem;
     line-height: 1;
   }
