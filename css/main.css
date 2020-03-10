@@ -28,9 +28,11 @@ span {
 }
 
 @keyframes fadein {
+  
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -83,6 +85,7 @@ span {
     font-size: 6rem;
     line-height: 1;
   }
+
   .mini-text {
     margin-right: 6rem;
     margin-left: auto;
